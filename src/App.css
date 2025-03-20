@@ -725,6 +725,7 @@ audio {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
+  margin-top: -50px !important;
 }
 
 .btn-back {
