@@ -193,7 +193,7 @@ body {
 
 /* Image Styling */
 .memory-item img {
-  width: 250px;
+  width: 230px;
   height: auto;
   object-fit: cover;
   border-radius: 10px;
