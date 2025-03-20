@@ -683,7 +683,7 @@ body {
 
 .song{
   background: linear-gradient(to right, #ff9a9e, #fad0c4);
-  height: 100vh;
+  min-height: 100vh;
   padding: 20px;
 }
 
