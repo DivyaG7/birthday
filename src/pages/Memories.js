@@ -7,6 +7,7 @@ import photo4 from '../assets/photo4.jpg'
 import photo5 from '../assets/photo5.jpg'
 import photo6 from '../assets/photo6.jpg'
 import photo7 from '../assets/photo7.jpg'
+import photo8 from '../assets/photo8.jpg'
 
 const images = [
     { src: photo1, text: "Our first time in Chennai and the first time we spent my birthday together—a day full of new memories and happiness!" },
@@ -15,7 +16,8 @@ const images = [
     { src: photo4, text: "Our first train journey together—every trip with you is special!" },
     { src: photo5, text: "Exploring Chennai together—another beautiful memory to cherish! 🏙️❤️" },
     { src: photo6, text: "A memorable bus ride from our college days" },
-    { src: photo7, text: "Our very first outing during college days—where all the unforgettable memories began! 🎒❤️" }
+    { src: photo7, text: "Our very first outing during college days—where all the unforgettable memories began! 🎒❤️" },
+    { src: photo8, text: "Cherishing our unforgettable college trip to Ooty—beautiful moments, laughter, and memories that will last a lifetime!" }
 ];
 
 const MemoryLane = () => {
