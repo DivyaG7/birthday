@@ -10,6 +10,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
+  overflow-y: scroll;
   text-align: center;
   position: relative;
   color: white;
@@ -123,7 +124,8 @@ body {
   padding: 20px;
   border-radius: 15px;
   position: relative;
-  min-height: 100vh;
+  height: 100vh;
+  overflow-y: scroll;
 }
 
 .memory-intro {
@@ -404,6 +406,7 @@ body {
 .birthday-container {
   position: relative;
   height: 100vh;
+  overflow-y: scroll;
   background-color: #fde4e4;
   display: flex;
   justify-content: center;
@@ -562,6 +565,7 @@ body {
 .typing-container {
   position: relative;
   height: 100vh;
+  overflow-y: scroll;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -569,12 +573,12 @@ body {
   background-color: #1a1a2e;
   color: white;
   font-family: Arial, sans-serif;
-  overflow: hidden;
 }
 
 .typing-container h1 {
   font-size: 2em;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .text-box {
@@ -683,7 +687,8 @@ body {
 
 .song{
   background: linear-gradient(to right, #ff9a9e, #fad0c4);
-  min-height: 100vh;
+  height: 100vh;
+  overflow-y: scroll;
   padding: 20px;
 }
 
@@ -748,5 +753,24 @@ audio {
   box-shadow: 0px 6px 15px rgba(255, 255, 255, 0.5);
 }
 
+@media screen and (max-width: 767px) {
+  .text-box {
+    width: 80%;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+    text-align: center;
+    font-size: .7em;
+    min-height: 50px;
+  }
+
+  .back-btn{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 10px !important;
+  }
+}
 
 
