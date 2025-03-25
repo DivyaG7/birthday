@@ -45,7 +45,7 @@ const Home = () => {
             style={{
               left: `${Math.random() * 100}%`,
               animationDuration: `${4 + Math.random() * 5}s`, /* Slower fall */
-              fontSize: `${30 + Math.random() * 20}px`, /* Bigger hearts */
+              fontSize: `${20 + Math.random() * 20}px`, /* Bigger hearts */
             }}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
